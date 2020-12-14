@@ -1,9 +1,9 @@
 # 🥦 Broccoli
-> `go get -u aletheia.icu/broccoli`
+> `go get -u github.com/montanaflynn/broccoli`
 
-[![GoDoc](https://godoc.org/aletheia.icu/broccoli/fs?status.svg)](https://godoc.org/aletheia.icu/broccoli/fs)
+[![GoDoc](https://godoc.org/github.com/montanaflynn/broccoli/fs?status.svg)](https://godoc.org/github.com/montanaflynn/broccoli/fs)
 [![Travis](https://travis-ci.org/aletheia-icu/broccoli.svg)](https://travis-ci.org/aletheia-icu/broccoli)
-[![Go Report Card](https://goreportcard.com/badge/aletheia.icu/broccoli/fs)](https://goreportcard.com/report/aletheia.icu/broccoli/fs)
+[![Go Report Card](https://goreportcard.com/badge/github.com/montanaflynn/broccoli/fs)](https://goreportcard.com/report/github.com/montanaflynn/broccoli/fs)
 [![codecov.io](https://codecov.io/gh/aletheia-icu/broccoli/coverage.svg)](https://codecov.io/gh/aletheia-icu/broccoli)
 
 Broccoli uses [brotli](https://github.com/google/brotli) compression to embed a
@@ -58,7 +58,7 @@ update files remotely                 | yes                 | no
 
 Broccoli seems to outperform the existing solutions.
 
-We did [benchmarks](https://vcs.aletheia.icu/lads/broccoli-bench), please feel
+We did [benchmarks](https://vcs.github.com/montanaflynn/lads/broccoli-bench), please feel
 free to review them and correct us whenever our methodology could be flawed.
 
 ### Usage
@@ -111,9 +111,9 @@ func main() {
 ```
 
 ### Credits
-License: [MIT](https://vcs.aletheia.icu/lads/broccoli/src/branch/master/LICENSE)
+License: [MIT](https://vcs.github.com/montanaflynn/lads/broccoli/src/branch/master/LICENSE)
 
 We would like to thank brotli development team from Google and Andy Balholm, for
 his c2go pure-Go port of the library. Broccoli itself is an effort of a mentoring
 experiment, lead by [@tucnak](https://github.com/tucnak) on the foundation of
-[Aletheia](https://aletheia.icu).
+[Aletheia](https://github.com/montanaflynn).

@@ -14,7 +14,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"aletheia.icu/broccoli/fs"
+	"github.com/montanaflynn/broccoli/fs"
 )
 
 var (
